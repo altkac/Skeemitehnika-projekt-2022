@@ -12,9 +12,6 @@ int buttonTypeState = 0;                            //button that changes unsign
 
 
 void setup() {
-  pinMode(potentiometer, INPUT);
-  pinMode(buttonRow, INPUT);
-  pinMode(buttonType, INPUT);
   lcd.begin(16, 2);                                 //define size of display
   Serial.begin(9600);
 }
